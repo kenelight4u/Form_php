@@ -8,10 +8,10 @@
         if (!empty($last_name)) {
             if (!empty($password)) {
                
-                $host = "localhost";
-                $dbusername = "root";
-                $dbpassword = "";
-                $dbname = "youtube";
+                $host = "e11wl4mksauxgu1w.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+                $dbusername = "a8nlf26bm5nqydgq";
+                $dbpassword = "k1h00l35rb8mlcwf";
+                $dbname = "dsq0fmkbphqinx9h";
 
                 // Create Connection
                 $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
